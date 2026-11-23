@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER upload your MongoDB password or Admin PIN!)
+.env
+.env.local
+.env.production
+
+# Build outputs & logs
+dist/
+build/
+.DS_Store
+*.log
